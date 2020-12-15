@@ -1,0 +1,83 @@
+/* Menu Page */
+
+/* menu Container */
+.menu-container {
+  max-width: 1260px;
+  margin: 2px auto 0px;
+}
+
+/* Secondary Nav */
+.secondary-nav {
+  margin: 2px auto 0px;
+  height: 55px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.secondary-nav ul {
+  padding-left: 105px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.secondary-nav ul li a {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.secondary-nav ul li a.active-secondary {
+  padding-bottom: 5px;
+  border-bottom: 1px #333 solid;
+}
+
+/* Fixed Bottom bar */
+
+.fixed-bottom-bar {
+  background-color: var(--primary-color);
+  margin: auto;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fixed-bottom-bar div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.fixed-bottom-bar div ul:first-child {
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.7);
+}
+
+/* Menu */
+.main-section-menu {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+}
+
+.main-section-menu .image-menu .drink,
+.main-section-menu .image-menu .food,
+.main-section-menu .image-menu .home-coffee,
+.main-section-menu .image-menu .merchandise {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.main-section-menu .image-menu ul li img {
+  width: auto;
+  height: 125px !important;
+}
