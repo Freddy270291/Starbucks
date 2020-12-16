@@ -140,7 +140,7 @@ img {
 .nav-container .main-nav .nav-left li a {
   margin-left: 25px;
   text-transform: uppercase;
-}
+  }
 
 .nav-container .main-nav .nav-left li a:hover {
   color: var(--secondary-color);

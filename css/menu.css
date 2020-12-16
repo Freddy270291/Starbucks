@@ -68,6 +68,26 @@
   width: 100%;
 }
 
+
+.main-section-menu .list-menu {
+  margin-top: 30px;
+  font-size: 1rem;
+  max-width: 200px;
+}
+
+.main-section-menu .list-menu ul li {
+  padding: 10px 0;
+}
+
+.main-section-menu .list-menu ul li.bold {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.main-section-menu .list-menu ul li a {
+  color: #AEAEAE;
+}
+
 .main-section-menu .image-menu .drink,
 .main-section-menu .image-menu .food,
 .main-section-menu .image-menu .home-coffee,
@@ -79,5 +99,67 @@
 
 .main-section-menu .image-menu ul li img {
   width: auto;
-  height: 125px !important;
+  height: 150px !important;
+}
+
+.main-section-menu .image-menu h1 {
+  margin-top: 30px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.main-section-menu .image-menu h2 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  border-bottom: #c7c7c7 solid 1px;
+  padding-bottom: 25px;
+}
+
+.main-section-menu .image-menu li {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-section-menu .image-menu li a {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+#menu-links {
+  border-top: #c7c7c7 1px solid;
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  .main-section-menu .list-menu {
+    display: none;
+  }
+
+  .main-section-menu {
+    padding: 0 20px;
+  }
+
+  .main-section-menu .image-menu ul li img {
+    width: auto;
+    height: 75px !important;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .secondary-nav {
+    display: none;
+  }
+
+  .main-section-menu .image-menu .drink,
+  .main-section-menu .image-menu .food,
+  .main-section-menu .image-menu .home-coffee,
+  .main-section-menu .image-menu .merchandise {
+    grid-template-columns: 1fr;
+  }
 }
