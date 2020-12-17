@@ -1,0 +1,17 @@
+/* Rewards NavBar */
+.rewards-navbar {
+  height: 50px;
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 3px #000;
+}
+
+.rewards-navbar h2 {
+  padding-left: 40px;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
