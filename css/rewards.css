@@ -23,5 +23,93 @@
 .join {
   background-color: var(--primary-color);
   color: #fff;
-  height: 940px;
+  height: 85vh;
+}
+
+.join .element-1-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 2rem;
+  letter-spacing: 2.5px;
+}
+
+.join .element-1-inner h1 {
+  font-size: 2rem;
+}
+
+.join .element-1-inner h3 {
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.join .element-2 {
+  height: 85vh;
+}
+
+.join .element-2 img {
+  height: 100%;
+}
+
+.join a {
+  color: #fff;
+}
+
+/* Getting Started */
+#getting-started {
+  height: 80vh;
+  padding: 3rem;
+  color: var(--dark-color);
+}
+
+#getting-started img {
+  height: 60px;
+  width: 60px;
+}
+
+.getting-started-title {
+  margin: 2rem auto 0 auto;
+  height: 30%;
+  align-self: center;
+  text-align: center;
+}
+
+.getting-started-title h1 {
+  margin-bottom: 30px;
+  letter-spacing: 2.5px;
+  word-spacing: 3px;
+}
+
+.getting-started-title p {
+  font-weight: 200;
+}
+
+.getting-started-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.getting-started-steps .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  
+}
+
+.getting-started-steps .card h2 {
+  margin: 2rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.getting-started-steps .card p {
+  line-height: 1.5rem;
+  font-size: 1.05rem;
 }

@@ -4,6 +4,7 @@
 :root {
   --primary-color: #1e3932;
   --secondary-color: #006341;
+  --light-green: #008248;
   --dark-color: #212121;
 }
 
@@ -29,6 +30,15 @@ img {
 }
 
 /* Generic categories */
+
+.green {
+  color: var(--light-green);
+  text-decoration: underline;
+}
+
+.green:hover {
+  text-decoration: none;
+}
 
 .btn {
   background-color: #fff;
@@ -75,6 +85,18 @@ img {
 
 .btn-green:hover {
   background: #334c46;
+}
+
+.btn-light-green {
+  background-color: var(--light-green);
+  color: #fff;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.btn-light-green:hover {
+  background-color: var(--light-green);
+  opacity: 0.9;
 }
 
 .btn-green-transparent {
