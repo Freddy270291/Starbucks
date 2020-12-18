@@ -33,17 +33,31 @@
     </div>
     <!-- Rewards Navbar -->
     <div class="rewards-navbar">
-        <h2>STARBUCKS&copy; REWARDS</h2>
+        <div class="main-container rewards-navbar-inner">
+            <h2>STARBUCKS&copy; REWARDS</h2>
+        </div>
     </div>
-    
-    <!-- Main container max-width -->
-    
-    <div class="main-container">  
+      
 
-    
+    <!-- Join section -->
+    <section id="join" class="join grid">
+        <div class="element-1 main-container">
+            <div class="element-1-inner">
+             <h1>More ways to pay. More ways to get rewarded.</h1>
+             <h3>As a Starbucks® Rewards member, you’ll earn free food and drinks whether you pay with cash, credit card or gift card. 
+                <span><a href="#" class="underline"> Terms of use</a></span></h3>
+             <a href="#" class="btn btn-green">Join now</a>
+             <h3><a href="#" class="underline">Or join in the app</a> for the best experience</h3>
+         </div>
+        </div>
+        <div class="element-2">
+             <img src="img/sfondo-rewards.PNG" alt="Join rewards">
+        </div>
+    </section>
+
 
     <!-- Links Section -->
-    <section id="menu-links" class="links">
+    <section id="menu-links" class="links main-container">
         <div class="links-container">
             <ul class="category">
                <li class="main-li">About Us
@@ -93,7 +107,7 @@
     </section>
     
     <!-- Footer -->
-    <footer class="main-footer">
+    <footer class="main-footer main-container">
         <div class="footer-container">
             <div class="social">
                 <a href="#"><i class="fab fa-spotify fa-2x"></i></a>
@@ -118,7 +132,6 @@
     <script>
             document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-nav .nav-left').classList.toggle('show'));
     </script>
-</div>
    
 </body>
 </html>

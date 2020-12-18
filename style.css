@@ -92,6 +92,10 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .menu-btn {
   cursor: pointer;
   position: absolute;
