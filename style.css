@@ -114,6 +114,13 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -130,6 +137,10 @@ img {
 .bold-text a {
   font-weight: bold;
   color: #fff !important;
+}
+
+.active-number {
+  border-bottom: var(--light-green) 5px solid;
 }
 
 /* NavBar */
