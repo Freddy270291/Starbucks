@@ -143,6 +143,17 @@ img {
   border-bottom: var(--light-green) 5px solid;
 }
 
+.max-width-600px {
+  max-width: 600px;
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
 /* NavBar */
 .nav-container {
   height: 100px;
