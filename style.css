@@ -35,6 +35,10 @@ img {
   background-color: #F3F1E7;
 }
 
+.hidden {
+  display: none;
+}
+
 .green {
   color: var(--light-green);
   text-decoration: underline;
